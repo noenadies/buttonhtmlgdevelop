@@ -18,10 +18,13 @@
 <p id="idp">The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
 
 <script>
+
+	var idc=0;
 function bigImg() {
   
     document.body.style.backgroundColor = "blue";
-    escr("dentro");
+    escr("dentro    "+ idc);
+    idc=idc+1;
 }
 
 function normalImg() {
