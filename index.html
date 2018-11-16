@@ -10,7 +10,7 @@
 
 
 </style>
-<body>
+<body >
 
 <img id="idmg"  onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://www.freds-haberdashery.co.uk/wp-content/uploads/images/products/p-7058-K1859-black.jpg" alt="Smiley" width="32" height="32">
 
@@ -21,11 +21,14 @@
 function bigImg(x) {
     x.style.height = "64px";
     x.style.width = "64px";
+    document.body.style.backgroundColor = "blue";
 }
 
 function normalImg(x) {
     x.style.height = "32px";
     x.style.width = "32px";
+
+    document.body.style.backgroundColor = "red";
 }
 </script>
 
